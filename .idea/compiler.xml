@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq1" />
+        <module name="rabbitmq2" />
+        <module name="rabbitmq3" />
+        <module name="rabbitmq4" />
+        <module name="springboot-rabbitmq-consumer" />
+        <module name="springboot-rabbitmq-producer" />
+        <module name="xjq_rabbitmq" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmq1" target="1.8" />
+      <module name="rabbitmq1 (1)" target="1.8" />
+      <module name="rabbitmq2" target="1.8" />
+      <module name="rabbitmq3" target="1.8" />
+      <module name="rabbitmq4" target="1.8" />
+      <module name="springboot-consumer" target="1.8" />
+      <module name="springboot-rabbitmq-consumer" target="1.8" />
+      <module name="springboot-rabbitmq-producer" target="1.8" />
+      <module name="springboot-rabbitmq5" target="1.8" />
+      <module name="xjq_rabbitmq" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq1" options="-parameters" />
+      <module name="rabbitmq1 (1)" options="-parameters" />
+      <module name="rabbitmq2" options="" />
+      <module name="rabbitmq3" options="" />
+      <module name="rabbitmq4" options="" />
+      <module name="springboot-consumer" options="-parameters" />
+      <module name="springboot-rabbitmq-consumer" options="" />
+      <module name="springboot-rabbitmq-producer" options="" />
+      <module name="springboot-rabbitmq5" options="-parameters" />
+      <module name="xjq_rabbitmq" options="-parameters" />
+    </option>
+  </component>
+</project>
